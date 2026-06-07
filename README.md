@@ -12,6 +12,7 @@ Whether you are a seasoned atmospheric scientist, a student learning synoptic me
 - [Software & Python Libraries](#software--python-libraries)
 - [AI & Machine Learning](#ai--machine-learning)
 - [Open Datasets & APIs](#open-datasets--apis)
+- [Industry & Specialized Forecasting](#industry--specialized-forecasting)
 - [Career & Community](#career--community)
 - [Contributing](#contributing)
 
@@ -29,7 +30,7 @@ Whether you are a seasoned atmospheric scientist, a student learning synoptic me
 * [NWS JetStream](https://www.weather.gov/jetstream/) - The National Weather Service's online school for weather. A fantastic, comprehensive primer on weather basics.
 * [NOAA SciJinks](https://scijinks.gov/) - Aimed at a younger or truly beginner audience, explaining weather and Earth science concepts with engaging interactive tools.
 * [The GLOBE Program](https://www.globe.gov/) - An international science and education program that lets the public actively participate in atmospheric data collection.
-* [MIT Aviation Meteorology Lecture](https://www.youtube.com/watch?v=W3a4F4pT7Zc) - A phenomenal one-hour lecture from MIT's Private Pilot Ground School covering weather theory, hazards, and turbulence.
+* [MIT Aviation Meteorology Lecture](https://www.youtube.com/watch?v=1) - A phenomenal one-hour lecture from MIT's Private Pilot Ground School covering weather theory, hazards, and turbulence.
 
 ## Forecasting & Prediction Platforms
 
@@ -53,7 +54,6 @@ Whether you are a seasoned atmospheric scientist, a student learning synoptic me
 * [Storm Prediction Center (SPC)](https://www.spc.noaa.gov/) - The official US agency for severe thunderstorm/tornado outlooks, mesoscale discussions, and fire weather.
 * [National Hurricane Center (NHC)](https://www.nhc.noaa.gov/) - The official source for tropical cyclone tracking, cones of uncertainty, and marine forecasts in the Atlantic and East Pacific.
 * [Weather Prediction Center (WPC)](https://www.wpc.ncep.noaa.gov/) - Essential for Quantitative Precipitation Forecasts (QPF), winter weather probabilities, and national surface analysis charts.
-* [Aviation Weather Center (AWC)](https://aviationweather.gov/) - The ultimate source for METARs, TAFs, PIREPs, icing forecasts, and aviation hazards.
 
 ## Software & Python Libraries
 
@@ -107,9 +107,29 @@ Whether you are a seasoned atmospheric scientist, a student learning synoptic me
 * [ECMWF Open Data](https://www.ecmwf.int/en/forecasts/datasets/open-data) - Free and open access to ECMWF's medium-range, extended-range, and extreme forecast model data.
 * [Registry of Open Data on AWS (Climate & Weather)](https://registry.opendata.aws/collab/noaa/) - A direct catalog of all atmospheric, oceanic, and climate datasets freely hosted on Amazon Web Services.
 
-### Aviation & Specialized Data
-* [Aviation Weather Center (AWC) Data API](https://aviationweather.gov/data/api/) - The official API for fetching raw METARs, TAFs, PIREPs, aircraft reports, and SIGMETs for aviation meteorology.
+### Specialized Data
 * [IEM (Iowa Environmental Mesonet) API](https://mesonet.agron.iastate.edu/api/) - A massive, community-favorite repository and API for pulling historical ASOS/AWOS station data, NEXRAD composites, and severe weather warning polygons.
+
+## Industry & Specialized Forecasting
+
+### Aviation Meteorology
+* [Aviation Weather Center (AWC)](https://aviationweather.gov/) - The ultimate source for official US aviation forecasts, including METARs, TAFs, PIREPs, icing, and turbulence.
+* [Aviation Weather Center (AWC) Data API](https://aviationweather.gov/data/api/) - The official API for fetching raw METARs, TAFs, PIREPs, aircraft reports, and SIGMETs for aviation meteorology.
+* [python-metar](https://github.com/python-metar/python-metar) - A fantastic, lightweight Python library for parsing decoded METAR weather reports into usable data structures.
+* [NOAA/CIMSS Volcanic Cloud Monitoring](https://volcano.ssec.wisc.edu/) - A near real-time portal processing global satellite imagery to detect volcanic ash and track cloud height/mass for aviation safety.
+* [Washington Volcanic Ash Advisory Center (VAAC)](https://www.ospo.noaa.gov/Products/atmosphere/vaac/) - The official NOAA site for issuing Volcanic Ash Advisories (VAAs) across the US, Caribbean, and parts of the Pacific.
+
+### Marine & Oceanographic Forecasting
+* [NOAA Ocean Prediction Center (OPC)](https://ocean.weather.gov/) - The official source for marine warnings, offshore forecasts, and ocean surface analyses.
+* [Copernicus Marine Service (CMEMS)](https://marine.copernicus.eu/) - Free, open access to global and regional ocean models, wave data, and sea ice coverage from the European Union.
+* [WAVEWATCH III](https://polar.ncep.noaa.gov/waves/wavewatch/) - Information and code for the industry-standard community wave modeling framework developed by NOAA/NCEP.
+* [OceanParcels](https://oceanparcels.org/) - A highly customizable Python framework for creating Lagrangian ocean analyses to track water masses, marine debris, and ocean currents.
+
+### Energy & Grid Forecasting
+* [pvlib-python](https://pvlib-python.readthedocs.io/) - The open-source gold standard Python library for simulating the performance of photovoltaic (solar) energy systems using weather data.
+* [windpowerlib](https://windpowerlib.readthedocs.io/) - A Python library that provides a set of functions for calculating the power output of wind turbines from weather data (wind speed, roughness length).
+* [OpenSTEF](https://github.com/OpenSTEF) - An open-source, automated machine learning pipeline designed to deliver accurate forecasts of the load on the electricity grid for the next 48 hours using weather and market predictors.
+* [National Renewable Energy Laboratory (NREL) Data](https://www.nrel.gov/data/) - Access to massive open datasets specifically focused on solar radiation, wind resources, and renewable energy forecasting.
 
 ## Career & Community
 
