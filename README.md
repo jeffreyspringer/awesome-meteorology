@@ -112,8 +112,23 @@ Whether you are a seasoned atmospheric scientist, a student learning synoptic me
 * [IEM (Iowa Environmental Mesonet) API](https://mesonet.agron.iastate.edu/api/) - A massive, community-favorite repository and API for pulling historical ASOS/AWOS station data, NEXRAD composites, and severe weather warning polygons.
 
 ## Career & Community
-* [American Meteorological Society (AMS)](https://www.ametsoc.org/) - The premier scientific and professional organization promoting and disseminating information about the atmospheric, oceanic, and hydrologic sciences.
-* [r/meteorology](https://www.reddit.com/r/meteorology/) - A Reddit community for discussing atmospheric sciences, forecasting, and related academic topics.
+
+### Job Boards & Career Services
+* [AMS Career Center](https://careercenter.ametsoc.org/) - The official job board of the American Meteorological Society. The absolute best place to look for broadcast, private sector, and academic meteorology jobs in the US.
+* [Earthworks-Jobs (Meteorology & Climate)](https://www.earthworks-jobs.com/meteorology) - A phenomenal global job board specifically tailored to the geosciences, climate, and atmospheric sciences.
+* [AGU Career Center](https://findajob.agu.org/jobs/atmospheric-sciences/) - The American Geophysical Union's job board, heavily leaning toward academic, research, and post-doc positions.
+* [Met-Jobs Listserv](https://lists.reading.ac.uk/mailman/listinfo/met-jobs) - A classic, highly active email distribution list for job vacancies in meteorology, oceanography, and climatology globally.
+
+### Professional Societies
+* [American Meteorological Society (AMS)](https://www.ametsoc.org/) - The premier scientific and professional organization in the US promoting the atmospheric, oceanic, and hydrologic sciences.
+* [Royal Meteorological Society (RMetS)](https://www.rmets.org/) - The UK's professional and learned society for weather and climate.
+* [European Meteorological Society (EMS)](https://www.emetsoc.org/) - A network of meteorological societies from across Europe, excellent for cross-continental collaboration.
+* [World Meteorological Organization (WMO)](https://wmo.int/) - The United Nations' specialized agency for meteorology. (They also have a fantastic job board for international positions!).
+
+### Social & Forums
+* [r/meteorology](https://www.reddit.com/r/meteorology/) - A heavily academic and science-focused Reddit community for discussing atmospheric sciences, forecasting, and career advice.
+* [r/weather](https://www.reddit.com/r/weather/) - A broader, more casual subreddit geared toward weather enthusiasts, storm photos, and general forecasting.
+* **#WxTwitter / #WxX** - Not a link, but a highly active hashtag and community on X (formerly Twitter) used by broadcast mets, NWS forecasters, storm chasers, and researchers to share real-time data and model runs.
 
 ---
 
