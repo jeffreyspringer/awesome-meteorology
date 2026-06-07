@@ -32,9 +32,28 @@ Whether you are a seasoned atmospheric scientist, a student learning synoptic me
 * [MIT Aviation Meteorology Lecture](https://www.youtube.com/watch?v=W3a4F4pT7Zc) - A phenomenal one-hour lecture from MIT's Private Pilot Ground School covering weather theory, hazards, and turbulence.
 
 ## Forecasting & Prediction Platforms
-* [College of DuPage (COD) Meteorology](https://weather.cod.edu/) - Excellent, highly customizable satellite and numerical weather prediction (NWP) model viewing.
-* [Pivotal Weather](https://www.pivotalweather.com/) - A go-to platform for viewing operational weather models (GFS, ECMWF, HRRR) and sounding data.
-* [Storm Prediction Center (SPC)](https://www.spc.noaa.gov/) - The official US agency for severe weather forecasts, convective outlooks, and mesoscale discussions.
+
+### Numerical Weather Prediction (NWP) Model Viewers
+* [Pivotal Weather](https://www.pivotalweather.com/) - A go-to platform for operational weather models (GFS, ECMWF, HRRR), soundings, and winter weather parameters.
+* [Tropical Tidbits](https://www.tropicaltidbits.com/) - Levi Cowan's fantastic site, specializing in tropical cyclone tracking, hurricane aircraft recon data, and clean global model visualizations.
+* [Meteologix (Weather.us)](https://weather.us/model-charts) - Features high-resolution European models (Swiss HD, ICON-D2) and massive archives of global weather parameters.
+* [WxCharts](https://www.wxcharts.com/) - A very clean, European-developed interface for viewing major global models including the ECMWF, GFS, UKMO, and ICON.
+
+### Interactive Global Visualization Maps
+* [Windy.com](https://www.windy.com/) - An incredibly smooth, interactive global map for visualizing wind, temperature, waves, and CAPE using ECMWF, GFS, and ICON data.
+* [Ventusky](https://www.ventusky.com/) - A highly visual, interactive web-based map developed in the Czech Republic, excellent for visualizing complex meteorological data and wind streams.
+* [Earth Nullschool](https://earth.nullschool.net/) - A mesmerizing visualization of global weather conditions forecast by supercomputers, updated every three hours.
+
+### Radar, Satellite & Nowcasting
+* [College of DuPage (COD) NEXLAB](https://weather.cod.edu/) - Unarguably one of the best free interfaces for high-resolution GOES satellite imagery and local NEXRAD radar data.
+* [NWS Radar](https://radar.weather.gov/) - The official, newly updated National Weather Service GIS-based radar interface for the United States.
+* [RadarOmega](https://www.radaromega.com/) - A highly detailed, enthusiast-tier radar and tracking platform (Note: Desktop/Mobile app heavily focused on storm chasing).
+
+### Operational Government Agencies
+* [Storm Prediction Center (SPC)](https://www.spc.noaa.gov/) - The official US agency for severe thunderstorm/tornado outlooks, mesoscale discussions, and fire weather.
+* [National Hurricane Center (NHC)](https://www.nhc.noaa.gov/) - The official source for tropical cyclone tracking, cones of uncertainty, and marine forecasts in the Atlantic and East Pacific.
+* [Weather Prediction Center (WPC)](https://www.wpc.ncep.noaa.gov/) - Essential for Quantitative Precipitation Forecasts (QPF), winter weather probabilities, and national surface analysis charts.
+* [Aviation Weather Center (AWC)](https://aviationweather.gov/) - The ultimate source for METARs, TAFs, PIREPs, icing forecasts, and aviation hazards.
 
 ## Software & Python Libraries
 * [MetPy](https://unidata.github.io/MetPy/) - A collection of tools in Python for reading, visualizing, and performing calculations with weather data.
