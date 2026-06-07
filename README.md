@@ -56,18 +56,60 @@ Whether you are a seasoned atmospheric scientist, a student learning synoptic me
 * [Aviation Weather Center (AWC)](https://aviationweather.gov/) - The ultimate source for METARs, TAFs, PIREPs, icing forecasts, and aviation hazards.
 
 ## Software & Python Libraries
-* [MetPy](https://unidata.github.io/MetPy/) - A collection of tools in Python for reading, visualizing, and performing calculations with weather data.
-* [xarray](https://xarray.pydata.org/) - An essential Python library for working with multi-dimensional arrays, heavily used for NetCDF climate and weather data.
-* [Py-ART](https://arm-doe.github.io/pyart/) - The Python ARM Radar Toolkit, used for working with and visualizing weather radar data.
+
+### General Meteorology & Analysis
+* [MetPy](https://unidata.github.io/MetPy/) - The absolute gold standard for meteorology in Python. Packed with tools for reading, visualizing, and performing calculations (skew-Ts, kinematics, frontogenesis) with weather data.
+* [Siphon](https://unidata.github.io/siphon/) - A collection of Python utilities for downloading data from remote data services, specifically designed to pull from THREDDS catalogs.
+* [Tropycal](https://tropycal.github.io/tropycal/) - A fantastic Python package designed specifically for retrieving and analyzing tropical cyclone data (both historical and real-time).
+* [wrf-python](https://wrf-python.readthedocs.io/) - A collection of diagnostic and interpolation routines specifically designed for extracting and working with output from the Weather Research and Forecasting (WRF-ARW) model.
+
+### Data Wrangling & Formats
+* [xarray](https://xarray.pydata.org/) - An essential library for working with multi-dimensional arrays, heavily used in climate science for manipulating NetCDF files.
+* [cfgrib / pygrib](https://github.com/ecmwf/cfgrib) - Crucial libraries for reading and writing GRIB files (the standard format for operational weather models like the GFS and ECMWF).
+* [CliMetLab](https://climetlab.readthedocs.io/) - An ECMWF package designed to greatly reduce boilerplate code by providing high-level unified access to meteorological and climate datasets.
+
+### Radar, Satellite, & Remote Sensing
+* [Py-ART](https://arm-doe.github.io/pyart/) - The Python ARM Radar Toolkit. The definitive library for reading, manipulating, and visualizing weather radar data (Level 2, Level 3, CF/Radial).
+* [Satpy](https://satpy.readthedocs.io/) - A powerful library for reading, manipulating, and writing data from remote-sensing, earth-observing satellite instruments (like GOES and Meteosat).
+* [wradlib](https://wradlib.org/) - An open-source library specifically focused on weather radar data processing, heavily used in Europe.
+
+### Mapping & Visualization
+* [Cartopy](https://scitools.org.uk/cartopy/) - A Python package designed for geospatial data processing in order to produce high-quality maps and handle complex map projections.
+* [GeoCAT](https://geocat.ucar.edu/) - The Geoscience Community Analysis Toolkit by NCAR, essentially serving as the Python replacement for the legacy NCAR Command Language (NCL) for plotting and visualization.
 
 ## AI & Machine Learning
-* [Google GraphCast](https://github.com/google-deepmind/graphcast) - An open-source, machine learning-based weather prediction model that outperforms traditional NWP on many metrics.
-* [NVIDIA Earth-2](https://www.nvidia.com/en-us/high-performance-computing/earth-2/) - A digital twin platform utilizing AI for high-resolution climate and weather simulations.
+
+### Global Weather Models (Large Weather Models)
+* [Google DeepMind GraphCast](https://github.com/google-deepmind/graphcast) - A state-of-the-art machine learning model that generates 10-day medium-range forecasts at 0.25° resolution using Graph Neural Networks.
+* [Huawei Pangu-Weather](https://github.com/198808xc/Pangu-Weather) - A highly accurate 3D high-resolution AI weather model utilizing Earth-specific transformers.
+* [NVIDIA FourCastNet](https://github.com/NVlabs/FourCastNet) - A global data-driven high-resolution weather model utilizing Adaptive Fourier Neural Operators (AFNO) to predict atmospheric variables.
+* [Google NeuralGCM](https://github.com/neuralgcm/neuralgcm) - A breakthrough hybrid model combining traditional physics-based fluid dynamics with machine learning for both short-term weather and long-term climate simulation.
+
+### Model Runners & Inference Tools
+* [ECMWF ai-models](https://github.com/ecmwf-lab/ai-models) - An incredibly useful, official ECMWF Python tool specifically designed to run inference on various AI weather models (GraphCast, Pangu, FourCastNet) and seamlessly output the data in standard GRIB formats.
+* [NVIDIA Earth2Studio](https://github.com/NVIDIA/earth2studio) - An open-source, Python-based deep-learning framework associated with NVIDIA's Earth-2 digital twin platform, built for running and exploring high-resolution climate and weather simulations.
+
+### Specialized AI & Downscaling
+* [DeepMind Nowcasting](https://github.com/deepmind/deepmind-research/tree/master/nowcasting) - Code focused on generative modeling for highly accurate, short-term precipitation nowcasting using deep learning and radar data.
+* [ClimaX](https://github.com/microsoft/ClimaX) - Microsoft's foundational model for weather and climate, designed to be pre-trained on heterogeneous datasets and easily fine-tuned for various downstream forecasting tasks.
 
 ## Open Datasets & APIs
-* [ECMWF Open Data](https://www.ecmwf.int/en/forecasts/datasets/open-data) - Free and open access to ECMWF's medium-range, extended-range, and extreme forecast data.
-* [NOAA Open Data Dissemination (NODD)](https://www.noaa.gov/information-technology/open-data-dissemination) - Cloud access to massive NOAA datasets, including NEXRAD radar, GOES satellite, and NWP models.
-* [Open-Meteo](https://open-meteo.com/) - A highly reliable, open-source weather API offering free access to historical and forecast data without API keys.
+
+### Free Weather & Forecasting APIs
+* [Open-Meteo](https://open-meteo.com/) - A phenomenal, highly reliable open-source weather API offering free access to historical, forecast, and marine data without needing API keys.
+* [National Weather Service (NWS) API](https://www.weather.gov/documentation/services-web-api) - The official REST API from the US Government for pulling point forecasts, active alerts, and grid-based observation data. Completely free.
+* [OpenWeatherMap API](https://openweathermap.org/api) - Provides global weather data, forecasts, and historical archives. They offer a very generous "One Call API" free tier for developers and student projects.
+* [Tomorrow.io Weather API](https://www.tomorrow.io/weather-api/) - A robust commercial API with a solid free tier, providing hyper-local forecasting, real-time observation, and specialized layers like air quality.
+
+### Cloud-Hosted & Massive Datasets
+* [NOAA Open Data Dissemination (NODD)](https://www.noaa.gov/information-technology/open-data-dissemination) - The holy grail for bulk data. Access massive NOAA datasets (like NEXRAD radar Level 2/3, GOES satellite imagery, and HRRR/GFS models) directly hosted on AWS, Google Cloud, and Azure. 
+* [Copernicus Climate Data Store (CDS)](https://cds.climate.copernicus.eu/) - The ultimate portal for European climate data, offering petabytes of open data including the highly utilized ERA5 global climate reanalysis dataset. 
+* [ECMWF Open Data](https://www.ecmwf.int/en/forecasts/datasets/open-data) - Free and open access to ECMWF's medium-range, extended-range, and extreme forecast model data.
+* [Registry of Open Data on AWS (Climate & Weather)](https://registry.opendata.aws/collab/noaa/) - A direct catalog of all atmospheric, oceanic, and climate datasets freely hosted on Amazon Web Services.
+
+### Aviation & Specialized Data
+* [Aviation Weather Center (AWC) Data API](https://aviationweather.gov/data/api/) - The official API for fetching raw METARs, TAFs, PIREPs, aircraft reports, and SIGMETs for aviation meteorology.
+* [IEM (Iowa Environmental Mesonet) API](https://mesonet.agron.iastate.edu/api/) - A massive, community-favorite repository and API for pulling historical ASOS/AWOS station data, NEXRAD composites, and severe weather warning polygons.
 
 ## Career & Community
 * [American Meteorological Society (AMS)](https://www.ametsoc.org/) - The premier scientific and professional organization promoting and disseminating information about the atmospheric, oceanic, and hydrologic sciences.
