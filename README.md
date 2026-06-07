@@ -18,8 +18,18 @@ Whether you are a seasoned atmospheric scientist, a student learning synoptic me
 ---
 
 ## Education & Coursework
-* [COMET MetEd](https://www.meted.ucar.edu/) - Hundreds of free training modules on meteorology, forecasting, and atmospheric science.
-* [Penn State E-Education](https://www.e-education.psu.edu/) - Open courseware covering atmospheric thermodynamics, synoptic meteorology, and more.
+
+### Open Courseware (University Level)
+* [COMET MetEd](https://www.meted.ucar.edu/) - Hundreds of free, highly-detailed training modules on meteorology, forecasting, and atmospheric science. (Requires free account).
+* [MIT OpenCourseWare (EAPS)](https://ocw.mit.edu/search/?d=Earth%2C%20Atmospheric%2C%20and%20Planetary%20Sciences) - Free lecture notes, exams, and videos from MIT's atmospheric science classes (e.g., *Tropical Meteorology*, *Atmosphere, Ocean and Climate Dynamics*).
+* [Penn State E-Education](https://www.e-education.psu.edu/) - Fantastic open courseware covering atmospheric thermodynamics, synoptic meteorology, and more.
+* [HarvardX: Backyard Meteorology](https://www.edx.org/learn/natural-sciences/harvard-university-backyard-meteorology-the-science-of-weather) - A free introductory edX course focusing on observing physical processes and forecasting without instruments.
+
+### Beginner & Hobbyist Resources
+* [NWS JetStream](https://www.weather.gov/jetstream/) - The National Weather Service's online school for weather. A fantastic, comprehensive primer on weather basics.
+* [NOAA SciJinks](https://scijinks.gov/) - Aimed at a younger or truly beginner audience, explaining weather and Earth science concepts with engaging interactive tools.
+* [The GLOBE Program](https://www.globe.gov/) - An international science and education program that lets the public actively participate in atmospheric data collection.
+* [MIT Aviation Meteorology Lecture](https://www.youtube.com/watch?v=W3a4F4pT7Zc) - A phenomenal one-hour lecture from MIT's Private Pilot Ground School covering weather theory, hazards, and turbulence.
 
 ## Forecasting & Prediction Platforms
 * [College of DuPage (COD) Meteorology](https://weather.cod.edu/) - Excellent, highly customizable satellite and numerical weather prediction (NWP) model viewing.
