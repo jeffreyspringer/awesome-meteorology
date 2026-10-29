@@ -109,6 +109,7 @@ Whether you are a seasoned atmospheric scientist, a student learning synoptic me
 
 ### Specialized Data
 * [IEM (Iowa Environmental Mesonet) API](https://mesonet.agron.iastate.edu/api/) - A massive, community-favorite repository and API for pulling historical ASOS/AWOS station data, NEXRAD composites, and severe weather warning polygons.
+* [WeatherChirp](https://weatherchirp.com/) - Long-term historical climate data for cities worldwide, useful for climate study and trip/vacation planning.
 
 ## Industry & Specialized Forecasting
 
